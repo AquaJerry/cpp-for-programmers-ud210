@@ -9,10 +9,10 @@
 
 #define s(t) sizeof(t) << endl
 
-using namespace std;
-
 int main()
 {
+	using namespace std;
+
 	cout << s(int) << s(short) << s(long) << s(char) << s(float) <<
 		s(double) << s(bool);
 }
