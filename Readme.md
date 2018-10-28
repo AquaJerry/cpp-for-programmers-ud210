@@ -7,9 +7,10 @@
          * [Why Learn C  ](#why-learn-c)
          * [Where Is C   Used](#where-is-c-used)
          * [What Makes C   Different](#what-makes-c-different)
+         * [Use Comments Judiciously](#use-comments-judiciously)
       * [License](#license)
 
-<!-- Added by: zeyangliu, at: 2018-10-28T14:23+08:00 -->
+<!-- Added by: zeyangliu, at: 2018-10-28T15:10+08:00 -->
 
 <!--te-->
 
@@ -68,6 +69,13 @@ Bjarne Stroustrup, designer, original implementor of C++
 > provides really strong attraction mechanisms that are very powerful, very
 > modern so that you don't have to deal with the low-level stuff all the time.
 > And you can still be efficient.
+
+### Use Comments Judiciously
+
+> Comments should be used to say things that you can't do what in code.
+> Obviously the code tells you how something's done. It doesn't tell you what
+> at a high-level is being done or why is being done. Without that comment you
+> don't really know what the code is supposed to do.
 
 ## License
 
