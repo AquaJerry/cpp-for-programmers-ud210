@@ -6,9 +6,10 @@
          * [What Is C  ](#what-is-c)
          * [Why Learn C  ](#why-learn-c)
          * [Where Is C   Used](#where-is-c-used)
+         * [What Makes C   Different](#what-makes-c-different)
       * [License](#license)
 
-<!-- Added by: zeyangliu, at: 2018-10-28T14:19+08:00 -->
+<!-- Added by: zeyangliu, at: 2018-10-28T14:23+08:00 -->
 
 <!--te-->
 
@@ -59,6 +60,14 @@ Bjarne Stroustrup, designer, original implementor of C++
 > things in interesting places. But the interesting things and unusual things
 > is what you control about, the smart watches, the smart phones, things like
 > that.
+
+### What Makes C++ Different
+
+> C++ differs from most more modern programming languages by working directly
+> on the hardware and working very efficiently with the hardware. And then, it
+> provides really strong attraction mechanisms that are very powerful, very
+> modern so that you don't have to deal with the low-level stuff all the time.
+> And you can still be efficient.
 
 ## License
 
