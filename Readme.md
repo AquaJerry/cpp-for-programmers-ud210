@@ -2,16 +2,17 @@
 
 <!--ts-->
    * [C   For Programmers - ud210](#c-for-programmers---ud210)
-      * [Interview with Bjarne Stroustrup](#interview-with-bjarne-stroustrup)
+      * [Bjarne Stroustrup Interview](#bjarne-stroustrup-interview)
          * [What Is C  ](#what-is-c)
          * [Why Learn C  ](#why-learn-c)
+         * [Where Is C   Used](#where-is-c-used)
       * [License](#license)
 
-<!-- Added by: zeyangliu, at: 2018-10-28T11:01+08:00 -->
+<!-- Added by: zeyangliu, at: 2018-10-28T14:19+08:00 -->
 
 <!--te-->
 
-## Interview with Bjarne Stroustrup
+## Bjarne Stroustrup Interview
 
 Bjarne Stroustrup, designer, original implementor of C++
 
@@ -27,7 +28,7 @@ Bjarne Stroustrup, designer, original implementor of C++
 
 > The first is, it's really useful. That is, so many things are programs in
 > C++. Your camera is probably programmed in C++. Your cellphones have C++ on
-> it. Data science has C++, self-driving cars, mars rovers... It's all over the
+> it. Data science has C++, self-driving cars, Mars rovers... It's all over the
 > place. So it doesn't really matter much what you're interested in, there
 > would be a job for writing C++ in that field.
 
@@ -40,6 +41,24 @@ Bjarne Stroustrup, designer, original implementor of C++
 > of the unpleasantness of the real world to the point where you can actually
 > learn how to deal with it. And So C++ can be very useful as a learning tool
 > to learn how to program.
+
+### Where Is C++ Used
+
+> As a person I like to see C++ being used in interesting places like your
+> camera there, the Mars rovers and telescopes. I work in the finance industry
+> now. A lot of networking is done in C++. The games industry, most of the
+> graphics and animation, kind of stuff is in C++. So is most of the animation
+> in Hollywood. (Hollywood, by the way, I've forgotten about that.) The
+> mentioned cars, there's a lot of C++ in cars. BMW uses C++ to control their
+> cars. And in these days, the self-driving cars, a lot of that work is in C++
+> too. We're talking about the energy industry using it. The wind turbines are
+> using it a lot. I was aware of them many years ago, teaching C++ to some of
+> the people to build the biggest wind turbines in the world. So one of the
+> things I've found really cool about C++ is whatever you're interested in,
+> it's very a good way of getting hundreds of people doing these interesting
+> things in interesting places. But the interesting things and unusual things
+> is what you control about, the smart watches, the smart phones, things like
+> that.
 
 ## License
 
