@@ -36,6 +36,11 @@ Bjarne Stroustrup, designer, original implementor of C++
 > learn how to work with data structures, wirte down patterns or high-level
 > generic code in it and you can fiddle with bits of hardware in it.
 
+> A lot of languages are built to one thing: all they protect you against some
+> of the unpleasantness of the real world to the point where you can actually
+> learn how to deal with it. And So C++ can be very useful as a learning tool
+> to learn how to program.
+
 ## License
 
 ISC
