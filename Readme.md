@@ -31,6 +31,11 @@ Bjarne Stroustrup, designer, original implementor of C++
 > place. So it doesn't really matter much what you're interested in, there
 > would be a job for writing C++ in that field.
 
+> Secondly, it's a language with lots of features. So you can use it to learn
+> the fundamentals of quite a few variations of programming. And so you can
+> learn how to work with data structures, wirte down patterns or high-level
+> generic code in it and you can fiddle with bits of hardware in it.
+
 ## License
 
 ISC
