@@ -1,24 +1,15 @@
-/* Practice std::cin for strings.
- *
- * Write a program that prompts two users for their name, address, and phone
- * number. Print the information to the console in the following format.
- *
- * name\n\t\taddress\n\t\tphone number
+/* Practice getting string inputs and converting them to numeric variables
+ * using stringstream.
+ * 
+ * Prompt the user for the length of a room. Then prompt for the width of the
+ * room. Print out the area of the room.
  */
 
 #include "main.hpp"
 
-#define READ getline(cin, str)
-#define END_AT READ; cout << str <<
-
 int main()
 {
-	string str;
-
-	while (READ)
-	{
-		cout << str << "\n\t\t";
-		END_AT "\n\t\t";
-		END_AT endl;
-	}
+	float length, width;
+	std::cin >> length >> width;
+	std::cout << length * width;
 }
