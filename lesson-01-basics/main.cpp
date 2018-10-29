@@ -4,7 +4,7 @@
  * the errors.
  */
 
-#include <main.hpp>
+#include "main.hpp"
 
  void main ()
  {
