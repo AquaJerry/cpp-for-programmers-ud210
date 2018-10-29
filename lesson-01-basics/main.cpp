@@ -15,6 +15,6 @@
    cin >> FTemp;
 
    CTemp = FTemp - 32 / (9/5);
-   cout << "\n <<FTemp >> " in Farenheit = "  >> CTemp >> in Celsius\n";
+   cout << '\n' << FTemp << " in Farenheit = "  << CTemp << " in Celsius\n";
    return 0;
  }
