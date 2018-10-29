@@ -9,9 +9,10 @@
          * [What Makes C   Different](#what-makes-c-different)
          * [Use Comments Judiciously](#use-comments-judiciously)
          * [How to Learn C  ](#how-to-learn-c)
+         * [C   Guidelines](#c-guidelines)
       * [License](#license)
 
-<!-- Added by: zeyangliu, at: 2018-10-29T21:25+08:00 -->
+<!-- Added by: zeyangliu, at: 2018-10-29T22:07+08:00 -->
 
 <!--te-->
 
@@ -90,6 +91,17 @@ Bjarne Stroustrup, designer, original implementor of C++
 > learning programming: get an overview and then take into the details. Teach
 > the concepts in the context of concrete examples. People don't get abstract
 > ideas without examples. They just don't get it.
+
+### C++ Guidelines
+
+> You can do many things in C++ and yet some of them are quite stupid. And you
+> know you can write bad code in any programming language so C++ is not unique
+> in that. Sometimes the education is weak, so they lead people into writing
+> some of those stupid things and it pains me! And I think we just have to do
+> better and not send students into making mistakes. The guidelines project
+> that mentioned earlier is an effort to focus people's attentions on the good
+> bits, the things that we know it works. And get them out of the dark corners
+> of the obvious mistakes.
 
 ## License
 
