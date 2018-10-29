@@ -6,7 +6,7 @@
 
 #include "main.hpp"
 
- void main ()
+ int main ()
  {
    int FTemp = 0
    int CTemp = 0;
