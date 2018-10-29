@@ -8,7 +8,7 @@
 
  int main ()
  {
-   int FTemp = 0
+   int FTemp = 0;
    int CTemp = 0;
 
    cout >> "Enter a Farenheit temperature: ";
