@@ -8,9 +8,10 @@
          * [Where Is C   Used](#where-is-c-used)
          * [What Makes C   Different](#what-makes-c-different)
          * [Use Comments Judiciously](#use-comments-judiciously)
+         * [How to Learn C  ](#how-to-learn-c)
       * [License](#license)
 
-<!-- Added by: zeyangliu, at: 2018-10-28T15:10+08:00 -->
+<!-- Added by: zeyangliu, at: 2018-10-29T21:25+08:00 -->
 
 <!--te-->
 
@@ -76,6 +77,19 @@ Bjarne Stroustrup, designer, original implementor of C++
 > Obviously the code tells you how something's done. It doesn't tell you what
 > at a high-level is being done or why is being done. Without that comment you
 > don't really know what the code is supposed to do.
+
+### How to Learn C++
+
+> The way I describe this, it's like when you come to a new city. You want to
+> have an overview of the city and you can take a city tour. And then, most big
+> cities have a city tour, right? You go on a bus and somebody would tell you,
+> look, there's a big church, there's a museum and there's a good restaurant.
+> And, after a while you'll get some kind of idea. And if you have more time,
+> you'll go and begin to see if the food really was good and see if the church
+> was worth visiting for art or whatever. And I think that's the model for
+> learning programming: get an overview and then take into the details. Teach
+> the concepts in the context of concrete examples. People don't get abstract
+> ideas without examples. They just don't get it.
 
 ## License
 
