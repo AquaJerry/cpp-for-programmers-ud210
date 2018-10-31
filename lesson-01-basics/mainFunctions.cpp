@@ -8,10 +8,3 @@
  *
  * input.txt - for user inputs
  */
-
-#include "main.hpp"
-#include "mainFunctions.cpp"
-
-int main ()
-{
-}
