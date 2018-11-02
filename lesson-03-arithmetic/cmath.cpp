@@ -11,7 +11,10 @@
  * Write the values to the console.
  */
 
+#include <cmath>
 #include <iostream>
+
+using namespace std;
 
 int main()
 {
@@ -24,4 +27,10 @@ int main()
 	float coneHeight = 14;
 
 	float volCube, volSphere, volCone = 0;
+
+	volCube = pow(cubeSide, 3);
+	volSphere = 4 * M_PI * pow(sphereRadius, 3) / 3;
+	volCone = M_PI * pow(coneRadius, 2) * coneHeight / 3;
+
+	cout << volCube << endl << volSphere << endl << volCone;
 }
