@@ -8,8 +8,9 @@
 
 int main()
 {
-	int denominator = 5, numerator = 4;
+	int denominator = 5;
+	float numerator = 4;
 
-	int answer = numerator / denominator;
+	float answer = numerator / denominator;
 	std::cout << "answer = " << answer;
 }
