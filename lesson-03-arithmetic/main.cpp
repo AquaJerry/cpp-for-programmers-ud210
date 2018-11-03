@@ -1,6 +1,6 @@
 /*Fix the errors and get an error free compilation and execution.*/
 
-#include<input.txt>
+#include<iostream>
 
 void main()
 {
