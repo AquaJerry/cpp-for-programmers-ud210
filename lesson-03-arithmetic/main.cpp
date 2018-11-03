@@ -27,7 +27,7 @@ int main()
     std::cout<<constant<<"\n";
     //Print the complete equation
     std::cout<<"The polynomial we are solving is:\n";
-    std::cout<<"\t"<<coeff1<<"*x^"<<exp1<<" + "<<coEff2<<"*x^"<<exp2<<"+ "<<constant;
+    std::cout<<"\t"<<coeff1<<"*x^"<<exp1<<" + "<<coeff2<<"*x^"<<exp2<<"+ "<<constant;
     std::cout<<"\nWhat is the value of x?";
     std::cin>>x;
     std::cout<<x<<"\n";
