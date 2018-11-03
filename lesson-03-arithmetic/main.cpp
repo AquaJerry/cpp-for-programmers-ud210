@@ -14,8 +14,8 @@ int main()
     std::cin>>coeff1;
     std::cout<<coeff1<<"\n";
     std::cout<<"What is the exponent of the first term?";
-    std::cin>>Exp1;
-    std::cout<<Exp1<<"\n";
+    std::cin>>exp1;
+    std::cout<<exp1<<"\n";
     std::cout<<"What is the second coefficient?";
     std::cin>>coeff2;
     std::cout<<coeff2<<"\n":
@@ -32,7 +32,7 @@ int main()
     std::cin>>x;
     std::cout<<x<<"\n";
     //Solve the equation with the given x
-    y = coeff1*power(x,Exp1) + coeff2*power(x,exp2);    
+    y = coeff1*power(x,exp1) + coeff2*power(x,exp2);    
     std::cout<<"y = "<<coeff1<<"*"<<x<<"^"<<exp1<<" + "<<coeff2<<"*"<<x<<"^"<<exp2 + <<constant<<" = "<<y;
     return 0;
 }
