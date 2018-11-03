@@ -22,7 +22,7 @@ int main()
     std::cout<<coeff2<<"\n";
     std::cout<<"What is the exponent of the second term?";
     std::cin>>exp2;
-    std::cout<<exp2<<"n";
+    std::cout<<exp2<<"\n";
     std::cout<<"What is the constant?";
     std::cin>>constant;
     std::cout<<constant<<"\n";
