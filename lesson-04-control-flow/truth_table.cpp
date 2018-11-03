@@ -10,19 +10,14 @@
 
 int main()
 {
-	int a, b, c, d, e, f, q;
+	int a, b, c;
 
-	std::cout << "A\tB\tC\t\t(A&&B&&C)\t(!B||!C)\t(A&&(!B||!C))\tQ\n";
+	std::cout << "A\tB\tC\t\tQ\n";
 	for (size_t i = 0; i < 8; ++i)
 	{
 		a = (i bitand 4) >> 2;
 		b = (i bitand 2) >> 1;
 		c = i bitand 1;
-		d = a and b and c;
-		e = not b or not c;
-		f = a and e;
-		q = d or f;
-		std::cout << a << '\t' << b << '\t' << c << "\t\t" << d
-			<< "\t\t" << e << "\t\t" << f << "\t\t" << q << '\n';
+		std::cout << a << '\t' << b << '\t' << c << "\t\t" << a << '\n';
 	}
 }
