@@ -1,6 +1,7 @@
-/* Practice implicit assignment: int division.
+/* Fix the variable types problem.
  *
- * What's the output of this program?
+ * This code outputs the wrong answer even if it compiles and executes without
+ * errors.
  */
 
 #include <iostream>
