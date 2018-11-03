@@ -23,7 +23,7 @@ int main()
     std::cin>>exp2;
     std::cout<<exp2<<"n";
     std::cout<<"What is the constant?";
-    std::cin>>>constant;
+    std::cin>>constant;
     std::cout<<constant<<"\n";
     //Print the complete equation
     std::cout<<"The polynomial we are solving is:\n";
