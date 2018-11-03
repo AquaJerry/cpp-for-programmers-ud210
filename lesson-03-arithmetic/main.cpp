@@ -10,7 +10,7 @@ int main()
     int x;
     //Calculate the value of y for a user defined three term polynomial
     //Get the coefficients, exponents, and the constants
-    std::cout>>"What is the first coefficient?";
+    std::cout<<"What is the first coefficient?";
     std::cin<<coeff1;
     std::cout<<coeff1<<\n";
     std::cout<<"What is the exponent of the first term?";
