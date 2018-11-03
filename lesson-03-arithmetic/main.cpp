@@ -12,7 +12,7 @@ int main()
     //Get the coefficients, exponents, and the constants
     std::cout<<"What is the first coefficient?";
     std::cin>>coeff1;
-    std::cout<<coeff1<<\n";
+    std::cout<<coeff1<<"\n";
     std::cout<<"What is the exponent of the first term?";
     std::cin>>Exp1;
     std::cout<<Exp1<<"\n";
