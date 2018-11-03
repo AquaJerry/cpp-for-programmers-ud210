@@ -4,7 +4,7 @@
 
 int main()
 {
-    int coEff1, coEff2, constant;
+    int coeff1, coeff2, constant;
     int exp1, exp2;
     int y;
     int x;
