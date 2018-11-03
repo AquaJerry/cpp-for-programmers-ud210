@@ -2,7 +2,7 @@
 
 #include<iostream>
 
-void main()
+int main()
 {
     int coEff1, coEff2, constant;
     int exp1, exp2;
