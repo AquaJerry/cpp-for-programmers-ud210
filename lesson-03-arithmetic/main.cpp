@@ -1,5 +1,6 @@
 /*Fix the errors and get an error free compilation and execution.*/
 
+#include<cmath>
 #include<iostream>
 
 int main()
@@ -32,7 +33,7 @@ int main()
     std::cin>>x;
     std::cout<<x<<"\n";
     //Solve the equation with the given x
-    y = coeff1*power(x,exp1) + coeff2*power(x,exp2);    
+    y = coeff1*std::pow(x,exp1) + coeff2*std::pow(x,exp2);    
     std::cout<<"y = "<<coeff1<<"*"<<x<<"^"<<exp1<<" + "<<coeff2<<"*"<<x<<"^"<<exp2 + <<constant<<" = "<<y;
     return 0;
 }
