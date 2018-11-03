@@ -19,17 +19,32 @@ int main()
 	cout << skin << '\n';
 
 	// Use if-else statements to control program flow
+	if ('f' == skin)
+	{
+		cout << "Get a dog" << '\n';
+	}
+	else if ('t' == skin)
+	{
+		cout << "Get a bird" << '\n';
+	}
+	else
+	{
+		cout << "Would you like an animal that lives in water(w), land(l), or both(b)?";
+		cin >> location;
+		cout << location << '\n';
 
-	cout << "Get a dog" << '\n';
-	cout << "Get a bird" << '\n';
-
-	cout << "Would you like an animal that lives in water(w), land(l), or both(b)?";
-	cin >> location;
-	cout << location << '\n';
-
-	// Use if-else statements to control program flow
-
-	cout << "Get a fish" << '\n';
-	cout << "Get a gecko" << '\n';
-	cout << "Get a frog" << '\n';
+		// Use if-else statements to control program flow
+		if ('w' == location)
+		{
+			cout << "Get a fish" << '\n';
+		}
+		else if ('l' == location)
+		{
+			cout << "Get a gecko" << '\n';
+		}
+		else
+		{
+			cout << "Get a frog" << '\n';
+		}
+	}
 }
