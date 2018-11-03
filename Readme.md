@@ -10,9 +10,10 @@
          * [Use Comments Judiciously](#use-comments-judiciously)
          * [How to Learn C  ](#how-to-learn-c)
          * [C   Guidelines](#c-guidelines)
+         * [Good Learning Strategy](#good-learning-strategy)
       * [License](#license)
 
-<!-- Added by: zeyangliu, at: 2018-10-29T22:07+08:00 -->
+<!-- Added by: z, at: 2018-11-02T20:20+08:00 -->
 
 <!--te-->
 
@@ -102,6 +103,20 @@ Bjarne Stroustrup, designer, original implementor of C++
 > that mentioned earlier is an effort to focus people's attentions on the good
 > bits, the things that we know it works. And get them out of the dark corners
 > of the obvious mistakes.
+
+### Good Learning Strategy
+
+> I think first, you need sort of an overview of the language. A lot of
+> students dig in and want to know everything about some little detail. But the
+> point is they can't understand it so they "have" some of broader view of the
+> language. As people are going and they see, "oh, pointers, great, I want to
+> know everything about pointers". Why would you want to do that? They should
+> be working together with classes. You shouldn't upset about one little thing
+> or go in and say, "well, there're 32 different basic arithmetic types". It's
+> probably right. I can't remember. I mean that's just little time to do
+> conversions. Most of the time, I don't use all of those types and most of the
+> time I don't have to think about those things. So instead of digging into a
+> little details, get on an overview.
 
 ## License
 
