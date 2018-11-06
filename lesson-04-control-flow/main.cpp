@@ -8,15 +8,27 @@
  * solution.
  */
 
+#include <functional>
 #include <iostream>
+#include <map>
 
 using namespace std;
 
 int main()
 {
 	float in1, in2;
+	map<char, function<float(float, float)>> operations =
+	{
+		{'+', plus<>()},
+		{'-', minus<>()},
+		{'*', multiplies<>()},
+		{'/', divides<>()}
+	};
+	char sign;
+
 	cout << "Enter two numbers:\n";
 	cin >> in1 >> in2;
 	cout << "Enter the operation '+', '-', '*', '/':\n";
-	// TODO the program mentioned above
+	cin >> sign;
+	cout << in1 << sign << in2 << '=' << operations[sign](in1, in2);
 }
