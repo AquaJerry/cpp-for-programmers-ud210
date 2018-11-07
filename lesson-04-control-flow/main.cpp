@@ -1,34 +1,21 @@
-/* Practice switch statements in C++.
+/* Write a program that asks a user for five numbers.
  *
- * Create a program that asks the user for two float numbers. Then asks the
- * user if they would like to: add the numbers, subtract the numbers, multiply
- * the numbers, divide the numbers.
- *
- * The program should then print the numbers with the chosen operation and the
- * solution.
+ * Print out the sum and average of the five numbers.
  */
 
-#include <functional>
 #include <iostream>
-#include <map>
+#include <valarray>
 
 using namespace std;
 
 int main()
 {
-	float in1, in2;
-	map<char, function<float(float, float)>> operations =
+	valarray<int> numbers(5);
+	for (auto &number : numbers)
 	{
-		{'+', plus<>()},
-		{'-', minus<>()},
-		{'*', multiplies<>()},
-		{'/', divides<>()}
-	};
-	char sign;
-
-	cout << "Enter two numbers:\n";
-	cin >> in1 >> in2;
-	cout << "Enter the operation '+', '-', '*', '/':\n";
-	cin >> sign;
-	cout << in1 << sign << in2 << '=' << operations[sign](in1, in2);
+		cin >> number;
+	}
+	auto sum = numbers.sum();
+	// print out the sum and average.
+	cout << sum << ' ' << .2 * sum;
 }
