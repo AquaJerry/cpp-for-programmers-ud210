@@ -1,6 +1,10 @@
 # Pointers
 
-## Why Learn Pointers
+## Bjarne Stroustrup Interview
+
+Bjarne Stroustrup, designer, original implementor of C++
+
+### Why Learn Pointers
 
 > A language like Java also has pointers. They just call them references. And
 > in C++ when you deal with the low-level pointers, basically, machine
@@ -16,4 +20,16 @@
 > stack. Pointers are fundamental to deal with hardware. Then you use that to
 > implement higher-level abstractions.
 
-Bjarne Stroustrup, designer, original implementor of C++
+### How Are Pointers Used
+
+> The pointers are all over the place. And they're mostly in the
+> implementation. So if you have a linked list, you have pointers for going to
+> the next and previous element. If you have a class hierarchy of shapes, you
+> have pointers in the base class that goes to the appropriate functions. So a
+> lot of it is there. If you're using a vector in C++, it's implemented using
+> pointers, three of them actually. Same with the string. But you don't see
+> them as much as you do in all the languages. I think if you use pointers
+> directly all the time you're probably wrong. They should disappear into
+> things that are easier to use. And then leaves to compiler to use them really
+> well and to optimize their uses. So, I mean, if you look at this simple
+> linked list, that's the way you have pointers.
