@@ -21,6 +21,8 @@ int main()
 	cin >> givenFloat;
 	cin >> givenDouble;
 	cin >> givenChar;
+	// Ignore the characters in the buffer.
+	cin.ignore();
 	getline(cin, givenString);
 
 	cout << ' ' << givenInt;
