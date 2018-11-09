@@ -35,5 +35,6 @@ int main()
 	cout << ' ' << &given_float;
 	cout << ' ' << &given_double;
 	cout << ' ' << &given_string;
-	cout << ' ' << &given_char;
+	// TODO Give me a reason to code "(void*)" here.
+	cout << ' ' << (void*)&given_char;
 }
