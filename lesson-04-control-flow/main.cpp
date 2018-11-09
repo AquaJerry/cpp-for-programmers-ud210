@@ -1,21 +1,31 @@
-/* Write a program that asks a user for five numbers.
+/* Use a while loop to prompt a user to guess a target number.
  *
- * Print out the sum and average of the five numbers.
+ * The target number is between 0 and 100 (both included). Then the user
+ * guesses it. Tell the user if the guess is too high or too low. The user
+ * enters -1 or guesses the target number to end the program.
  */
 
 #include <iostream>
-#include <valarray>
+
+// use 55 as the number to be guessed
+#define TARGET 55
 
 using namespace std;
 
 int main()
 {
-	valarray<int> numbers(5);
-	for (auto &number : numbers)
+	int delta, guess;
+
+	cout << "Guess a number between 0 and 100. To quit enter -1.\n";
+	do
 	{
-		cin >> number;
+		cin >> guess;
+		// quit if -1 got
+		if (!~guess) break;
+		delta = guess - TARGET;
+		cout << guess << ' '
+			<< (delta ? delta < 0 ? "low" : "high" : "guessed")
+			<< '\n';
 	}
-	auto sum = numbers.sum();
-	// print out the sum and average.
-	cout << sum << ' ' << .2 * sum;
+	while (delta);
 }
