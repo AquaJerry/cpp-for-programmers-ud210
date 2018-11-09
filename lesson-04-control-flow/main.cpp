@@ -6,15 +6,15 @@
  */
 
 #include <iostream>
-
-// use 55 as the number to be guessed
-#define TARGET 55
+#include <random>
 
 using namespace std;
 
 int main()
 {
 	int delta, guess;
+	// generate the target number
+	int target = random_device()() % 101;
 
 	cout << "Guess a number between 0 and 100. To quit enter -1.\n";
 	do
@@ -22,7 +22,7 @@ int main()
 		cin >> guess;
 		// quit if -1 got
 		if (!~guess) break;
-		delta = guess - TARGET;
+		delta = guess - target;
 		cout << guess << ' '
 			<< (delta ? delta < 0 ? "low" : "high" : "guessed")
 			<< '\n';
