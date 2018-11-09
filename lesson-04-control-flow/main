@@ -1,0 +1,4 @@
+#Usage: ./main g++|clang++
+
+$1 -std=c++17 main.cpp
+./a.out #<input.txt
