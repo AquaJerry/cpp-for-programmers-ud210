@@ -11,29 +11,29 @@ using namespace std;
 
 int main()
 {
-	int givenInt;
-	float givenFloat;
-	double givenDouble;
-	string givenString;
-	char givenChar;
+	int given_int;
+	float given_float;
+	double given_double;
+	string given_string;
+	char given_char;
 
-	cin >> givenInt;
-	cin >> givenFloat;
-	cin >> givenDouble;
-	cin >> givenChar;
+	cin >> given_int;
+	cin >> given_float;
+	cin >> given_double;
+	cin >> given_char;
 	// Ignore the characters in the buffer.
 	cin.ignore();
-	getline(cin, givenString);
+	getline(cin, given_string);
 
-	cout << ' ' << givenInt;
-	cout << ' ' << givenFloat;
-	cout << ' ' << givenDouble;
-	cout << ' ' << givenString;
-	cout << ' ' << givenChar;
+	cout << ' ' << given_int;
+	cout << ' ' << given_float;
+	cout << ' ' << given_double;
+	cout << ' ' << given_string;
+	cout << ' ' << given_char;
 
-	cout << ' ' << &givenInt;
-	cout << ' ' << &givenFloat;
-	cout << ' ' << &givenDouble;
-	cout << ' ' << &givenString;
-	cout << ' ' << &givenChar;
+	cout << ' ' << &given_int;
+	cout << ' ' << &given_float;
+	cout << ' ' << &given_double;
+	cout << ' ' << &given_string;
+	cout << ' ' << &given_char;
 }
