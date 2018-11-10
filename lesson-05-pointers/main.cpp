@@ -20,9 +20,8 @@ int main()
 	cin >> given_int;
 	cin >> given_float;
 	cin >> given_double;
-	cin >> given_char;
-	// Ignore the characters in the buffer.
-	cin.ignore();
+	// Skip the end of line by std::ws.
+	cin >> given_char >> ws;
 	getline(cin, given_string);
 
 	cout << ' ' << given_int;
