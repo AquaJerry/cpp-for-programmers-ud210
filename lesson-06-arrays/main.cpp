@@ -1,22 +1,38 @@
-/* Find the min and max and average of 15 numbers that a user will input.
+/* Practice array manipulation in C++.
  *
- * The numbers range from 0 to 100.
- *
- * We will do it now for practice and again later when we learn arrays and
- * functions. So you do not have to keep all fifteen numbers stored in memory.
+ * The user will input 40 integers. Put them into an array. Then print the
+ * array in the order the numbers were entered. Then print in reverse order.
+ * Then sort the array in ascending order and print it. The each print of the
+ * array should separate the numbers in the array by one space. For example:
+ * the array were [3,4,55] the printout would be 3 4 55.
  */
 
 #include <iostream>
-#include <valarray>
+#include <list>
+
+// IN_OLDER_CPP
+//
+// for (list<int>::iterator item = list.begin(); list.end() != item; ++item)
+// 	cout << *item << ' '
+//
+#define PRINT(list) for (auto item : list) cout << item << ' '
 
 using namespace std;
 
 int main()
 {
-	valarray<int> numbers(15);
+	list<int> user_inputs(40);
 
-	for (auto &number : numbers) cin >> number;
+	// See IN_OLDER_CPP.
+	for (auto &item : user_inputs)
+	{
+		cin >> item;
+		cout << item << ' ';
+	}
 
-	cout << numbers.min() << ' ' << numbers.max() << ' ' << numbers.sum() /
-		15.;
+	user_inputs.reverse();
+	PRINT(user_inputs);
+
+	user_inputs.sort();
+	PRINT(user_inputs);
 }
