@@ -2,6 +2,13 @@
  *
  * Input all variables. Then Print the value of each variable. And then print
  * the address of each where it is stored.
+ *
+ *
+ * OUTPUT_NOT_AN_ADDRESS (https://stackoverflow.com/questions/17813423)
+ *
+ * `cout << &given_char;` prints a string starting with given_char instead of
+ * the address of it. You can change it into `cout << (void*)&given_char;` or
+ * `cout << static_cast<void*>(&given_char);`.
  */
 
 #include <iostream>
@@ -34,6 +41,6 @@ int main()
 	cout << ' ' << &given_float;
 	cout << ' ' << &given_double;
 	cout << ' ' << &given_string;
-	// TODO Give me a reason to code "(void*)" here.
+	// See OUTPUT_NOT_AN_ADDRESS.
 	cout << ' ' << (void*)&given_char;
 }
