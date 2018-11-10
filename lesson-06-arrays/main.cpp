@@ -1,38 +1,38 @@
-/* Practice array manipulation in C++.
+/* Practice searching an array in C++.
  *
- * The user will input 40 integers. Put them into an array. Then print the
- * array in the order the numbers were entered. Then print in reverse order.
- * Then sort the array in ascending order and print it. The each print of the
- * array should separate the numbers in the array by one space. For example:
- * the array were [3,4,55] the printout would be 3 4 55.
+ * There is an array of integers. The length of the arrays to be searched
+ * varies. A user will enter an integer and the program will search the array.
+ * If the value is in the array, the program will return the location of the
+ * element. If the value is not in the array, the user will be notified that
+ * the value is not in the array. To exit the program the user will enter -1.
  */
 
+#include <algorithm>
 #include <iostream>
-#include <list>
-
-// IN_OLDER_CPP
-//
-// for (list<int>::iterator item = list.begin(); list.end() != item; ++item)
-// 	cout << *item << ' '
-//
-#define PRINT(list) for (auto item : list) cout << item << ' '
+#include <iterator>
 
 using namespace std;
 
 int main()
 {
-	list<int> user_inputs(40);
+	int prey, jungle[]{324, 4567, 6789, 5421345, 7, 65, 8965, 12, 342, 485};
 
-	// See IN_OLDER_CPP.
-	for (auto &item : user_inputs)
+	/* Determine if preys entered by the user are in the jungle. */
+	cout << "Enter a number. To quit enter -1.\n";
+	while (cin >> prey, ~prey)
 	{
-		cin >> item;
-		cout << item << ' ';
+		auto prey_home = find(begin(jungle), end(jungle), prey);
+
+		/* Use these commands to give feedback to the user. */
+		cout << prey << " is ";
+		if (end(jungle) != prey_home)
+		{
+			cout << "at location " << distance(jungle, prey_home);
+		}
+		else
+		{
+			cout << "not";
+		}
+		cout << " in the array.\n";
 	}
-
-	user_inputs.reverse();
-	PRINT(user_inputs);
-
-	user_inputs.sort();
-	PRINT(user_inputs);
 }
