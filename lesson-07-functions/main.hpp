@@ -1,4 +1,4 @@
-/* Practice writing filters (functions with parameters and return values).
+/* Pass by reference to a function.
  *
  * The Declarations in a header file can be omitted though, it's often
  * considered a good practice to list the declarations at the top of the header
@@ -7,20 +7,36 @@
 
 #include <functional>
 #include <iostream>
+#include <map>
+
+using namespace std;
 
 
 /******************************** DECLARATIONS ********************************/
 
-void print_equation(int m1, int m2, int result, char operation);
+void calculate(float m1, float m2, char operation, float &result);
 
-// Add tow integers and return the sum.
-#define sum std::plus<>()
+void print_equation(float m1, float m2, char operation, float result);
 
 
 /******************************** DEFINITIONS *********************************/
 
-/* Prints the equation 'm1 operation m2 = result'. */
-void print_equation(int m1, int m2, int result, char operation)
+map<char, function<float(float, float)>> operations
 {
-	std::cout << m1 << ' ' << operation << ' ' << m2 << " = " << result;
+	{'+', plus<>()},
+	{'-', minus<>()},
+	{'*', multiplies<>()},
+	{'/', divides<>()}
+};
+
+/* Modify the result into 'm1 operation m2'. */
+void calculate(float m1, float m2, char operation, float &result)
+{
+	result = operations[operation](m1, m2);
+}
+
+/* Prints the equation 'm1 operation m2 = result'. */
+void print_equation(float m1, float m2, char operation, float result)
+{
+	cout << m1 << ' ' << operation << ' ' << m2 << " = " << result;
 }

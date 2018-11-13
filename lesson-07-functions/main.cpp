@@ -1,4 +1,7 @@
-/* Practice writing filters (functions with parameters and return values).
+/* Pass by reference to a function.
+ *
+ * There're two functions that you need to write: calculate, print_equation.
+ * Pass by reference any value modified in those functions.
  *
  * Move the function declaration and definition to the header file. Don't
  * forget to include the header file here.
@@ -8,7 +11,9 @@
 
 int main()
 {
-	int m1 = 4, m2 = 5;
+	char operation = '*';
+	float input1 = 9.8, input2 = 2.3, result;
 
-	print_equation(m1, m2, sum(m1, m2), '+');
+	calculate(input1, input2, operation, result);
+	print_equation(input1, input2, operation, result);
 }
