@@ -11,7 +11,7 @@
 
 int main()
 {
-	char operation = '*';
+	char operation = '/';
 	float input1 = 9.8, input2 = 2.3, result;
 
 	calculate(input1, input2, operation, result);
