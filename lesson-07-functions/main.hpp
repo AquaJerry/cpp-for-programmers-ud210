@@ -1,6 +1,7 @@
-/*The header file for main.cpp
-**This file has functions called from main.
-*/
+/* The header file for main.cpp.
+ *
+ * This file has functions called from main.
+ */
 
 #include <fstream>
 #include <iostream>

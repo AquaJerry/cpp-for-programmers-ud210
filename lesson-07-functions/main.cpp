@@ -1,14 +1,13 @@
-/*Debug the program so that it executes correctly.
-**This program calculates floor or wall surface areas
-**For the purpose of remodeling estimates.
-**It asks a user to enter their name, phone, address
-**Then enter the room they wish to remodel
-**The user is asked to select a task
-**then a material.
-**The program will generate an estimate of
-**the cost of the project.
-**
-**The user inputs are in the input.txt file.*/
+/* Debug the program so that it executes correctly.
+ *
+ * This program calculates floor or wall surface areas For the purpose of
+ * remodeling estimates. It asks a user to enter their name, phone, address
+ * Then enter the room they wish to remodel The user is asked to select a task
+ * then a material. The program will generate an estimate of the cost of the
+ * project.
+ *
+ * The user inputs are in the input.txt file.
+ */
 
 #include "main.hpp"
 
