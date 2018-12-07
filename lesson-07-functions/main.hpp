@@ -80,7 +80,6 @@ using namespace std;
         default:
             std::cout<<" Ivalid task ";
     }
-    return task;
  }
  
  void getRoomInformation(int task,float &roomWidth, float &roomDepth, float &roomHeight)
