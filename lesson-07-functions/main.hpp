@@ -2,9 +2,12 @@
 **This file has functions called from main.
 */
 
+#include <iostream>
 #include <string>
 #include <sstream>
 #include <fstream>
+
+using namespace std;
 
  void getUserInformation( string name, string number, string address);
  void getRoomIChoice();
@@ -124,7 +127,7 @@
  
  void printWallCostComparisons(float paintCost, float wallpaperCost)
  {//print the estimates for the wall coverings
-    std::cout<<"\nPaint Estimate: <<paintCost<<"\n\n";
+    std::cout<<"\nPaint Estimate: "<<paintCost<<"\n\n";
     std::cout<<"Wallpaper Estimate: "<<wallpaperCost<<"\n\n";
  }
  
