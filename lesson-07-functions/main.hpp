@@ -9,6 +9,13 @@
 
 using namespace std;
 
+// Cost of materials for the remodel
+const float PAINTCOST = .50;      // per square foot
+const float WALLPAPERCOST = 2.00; // per square foot
+const float CARPETCOST = 4.00;    // per square foot
+const float TILECOST = 5.50;      // per square foot
+const float WOODCOST = 6.00;      // per square foot
+
 void getUserInformation(string name, string number, string address);
 void getRoomIChoice();
 int getTaskAssignment();
