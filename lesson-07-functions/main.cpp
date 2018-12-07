@@ -43,7 +43,7 @@ int main() {
   enum task { paint, wallpaper, carpet, tile, woodFloor };
 
   getUserInformation(userName, userAddress, phoneNumber);
-  remodelRoom = getRoomchoice();
+  remodelRoom = getRoomChoice();
   task = getTaskAssignment();
 
   getRoomInformation(task, roomWidth, roomDepth, roomHeight);
