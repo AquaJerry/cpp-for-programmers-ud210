@@ -21,8 +21,8 @@ void getUserInformation(string &name, string &number, string &address);
 void getRoomIChoice();
 int getTaskAssignment();
 void printTask(int task);
-void getRoomInformation(int task, float roomWidth, float roomDepth,
-                        float roomHeight);
+void getRoomInformation(int task, float &roomWidth, float &roomDepth,
+                        float &roomHeight);
 void printJobInformation(string userName, string phoneNumber,
                          string userAddress, string remodelRoom, int task);
 float calcWallSurfaceArea(float roomWidth, float roomDepth, float roomHeight);
