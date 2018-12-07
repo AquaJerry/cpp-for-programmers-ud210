@@ -50,11 +50,10 @@ int main() {
 
   // print the information of the user and room
   printJobInformation(userName, phoneNumber, userAddress, remodelRoom, task);
-  printRoomInformation
 
-      // If a wall treatment is to be done, get the wall surface area
-      // assume all four walls of the room are to be redone
-      if (task = paint or task = wallpaper) {
+  // If a wall treatment is to be done, get the wall surface area
+  // assume all four walls of the room are to be redone
+  if (task = paint or task = wallpaper) {
     // calculate and print the estimates
     wallSurfaceArea = calcWallSurfaceArea(roomWidth, roomDepth, roomHeight);
     paintCost = calcPaintCost(wallSurfaceArea);
