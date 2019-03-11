@@ -1,0 +1,4 @@
+#Usage: ./what_s_array g++|clang++
+
+$1 -std=c++17 what_s_array.cpp
+./a.out
